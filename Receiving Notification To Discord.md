@@ -1,6 +1,6 @@
 ## CREATING A SERVER IN DISCORD TO RE RECEIVE ALERTS 
 
-
+I created a server called Wazuh alert Notification
 <img width="1056" height="759" alt="image" src="https://github.com/user-attachments/assets/c9ddca88-3787-4425-a890-c4bbecb48be9" />
 
   - CLICK SERVER SETTING
