@@ -14,3 +14,8 @@ I created a server called Wazuh alert Notification
 
 - Now click " NEW WEBHOOK "
 <img width="1067" height="241" alt="image" src="https://github.com/user-attachments/assets/d1f1e9ee-4bd3-4e29-a80e-b501b98f4edc" />
+
+- I am going to copy the webhook and past it to shuffle URL
+<img width="736" height="285" alt="image" src="https://github.com/user-attachments/assets/636b56fa-abed-4348-bf3c-c9fbdcf4cdfd" />
+<img width="462" height="195" alt="image" src="https://github.com/user-attachments/assets/d5089d6c-1b34-4d32-8e5a-417101a26b3f" />
+
