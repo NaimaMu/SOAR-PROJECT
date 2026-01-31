@@ -1,6 +1,7 @@
 ## CREATING A SERVER IN DISCORD TO RE RECEIVE ALERTS 
 
-I created a server called Wazuh alert Notification
+I created a server called "Wazuh alert Notification" in discord. The purpose of this server is to get notification from Shuffle that tells me alerts that its receiving from wazuh. 
+
 <img width="1056" height="759" alt="image" src="https://github.com/user-attachments/assets/c9ddca88-3787-4425-a890-c4bbecb48be9" />
 
   - CLICK SERVER SETTING
