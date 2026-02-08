@@ -9,7 +9,7 @@ This shows the overall flow of my SOAR project and what I am trying to achieve. 
 
 ## Tools I used
 - Shuffle(SOAR)
-- ELKStack(SIEM)
+- ELK Stack(SIEM)
 - windows 11
 - Discord(Notification)
 - Virtualbox(HOMELAB)
@@ -22,10 +22,12 @@ This shows the overall flow of my SOAR project and what I am trying to achieve. 
 - I am using Shuffle as my SOAR platform.
 - Shuffle receives alerts from the ELK Stack when suspicious activity is detected.
 - Shuffle runs an automation and sends a notification to Discord so I can review the alert.
-- 
+
 ### Windows 11
-- Windows 11 is the host system that generates user login events. It has the ELK agent installed, which allows login activity to be sent to the ELK Stack for monitoring and analysis.
- ## Goal is:
+- Windows 11 is the host system that generates user login events. It has the ELK agent installed, which allows login activity to be sent to the ELK Stack for monitoring and
+analysis.
+
+ ### Goal is:
    - To learn and practice basic SOAR automation
    - to understand how security alerts move from detection to automated response
    - To gain hands-on experience using SEIM and SOAR tools in my homelab environment
