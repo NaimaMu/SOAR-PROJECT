@@ -17,6 +17,31 @@ Now lets check if there are any successful login attemp:
 querry: event.code:"4624"
 
 <img width="966" height="584" alt="image" src="https://github.com/user-attachments/assets/32748502-a770-427c-954e-51e3e177cd90" />
+- We can see that that querry worked and now returns a successful login attempts.
+
+
+# Now Lets create a detection rule
+     a. in Kibana, go to Security
+     b. Then go to Rules (Or Detection rules)
+     c. now click Create new rule
+
+<img width="789" height="729" alt="image" src="https://github.com/user-attachments/assets/20a25510-3d79-4dc7-98b0-847cca6d7911" />
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
