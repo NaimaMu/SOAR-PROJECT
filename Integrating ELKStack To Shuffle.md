@@ -1,5 +1,5 @@
-# Description:
-     - This files shows steps by step on how I integrate Wazuh to Shuffle so that wazuh alerts  to Shuffle SOAR workflow.
+# OVERVIEW:
+- In this secion, I am integrating the ELK Stack with Shuffle.My goal is to send security alerts from ELK to Shuffle so that Shuffle can start an automation when suspicious login activity is detected.
 
      
 SO Let's Get start!
