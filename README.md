@@ -6,6 +6,8 @@ In this project, I am building a simple SOAR automation to detect unusual user l
 ## Objective
 The objective of this project is to detect suspicious login activity on a Windows 11 system and automatically send an alert using Shuffle.
 
+<img width="812" height="595" alt="image" src="https://github.com/user-attachments/assets/e031ebfe-85de-4ccd-a907-d02a68334bf4" />
+
 ## Tools I used
 - Shuffle(SOAR)
 - ELKStack(SIEM)
