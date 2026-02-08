@@ -6,13 +6,13 @@ In this project, I create a simple SOAR automation that detects unusual user log
 ---
 
 ## Tools I used
-- Wazuh
+- Shuffle
 - Shuffle
 - windows 11
 
 ## Explanation for Each
-### wazuh
-  - (will collect all the logs from my windows 11 and  monitors user login activity. Then I am going to create dashboards to actually helps me visualize where these activities is coming from.
+### ELKStack
+  - will collect all the logs from my windows 11 and  monitors user login activity. Then I am going to create dashboards to actually helps me visualize where these activities is coming from.
 ### Shuffle
   - Shuffle receives alerts from wazuh and runs a simple automation. It flags the activity as suspicious and sends a notification to the analyst(which is me) in discord so that I can review it and take the correct action.
 
