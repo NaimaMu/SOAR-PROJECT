@@ -56,4 +56,5 @@ Click "Continue"
 
 # Rule Actions
 At this step, I did not add any actionns. I left everything empty and clicked create rule. his is because I want to first make sure the rule works before connecting it to Shuffle.
+
 <img width="625" height="508" alt="image" src="https://github.com/user-attachments/assets/98345787-2c89-47c5-9c90-00b62d8f9ae4" />
