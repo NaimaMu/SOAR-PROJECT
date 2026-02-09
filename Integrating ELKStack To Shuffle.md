@@ -25,16 +25,8 @@ querry: event.code:"4624"
      b. Then go to Rules (Or Detection rules)
      c. now click Create new rule
 
-<img width="789" height="729" alt="image" src="https://github.com/user-attachments/assets/20a25510-3d79-4dc7-98b0-847cca6d7911" />
-
-
-
-# Setting up RUle Detection
-     a. go to Security 
-     b. click  "Rules"
 <img width="744" height="622" alt="image" src="https://github.com/user-attachments/assets/f9eeae19-3451-43ab-b4b3-9e929021bcae" />
 
-# Creating a Detection Rule
 
 
 
