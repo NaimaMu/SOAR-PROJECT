@@ -31,3 +31,19 @@ querry: event.code:"4624"
      d. Now I am going to click on where it says "Threshold"
 <img width="1082" height="700" alt="image" src="https://github.com/user-attachments/assets/b3e5ec40-e436-45eb-8f62-76937025c804" />
 
+# Configure the Threshold rule (failed logins)
+I set the rule like this:
+     - Index patterns: winlogbeat-* ,  logs-*
+     - query:  event.code: "4625"
+     - Threshold: 5
+     - Time window: 5 minutes
+This means the alert will trigger if there are 5 failed login attempts within 5 minutes. 
+<img width="785" height="542" alt="image" src="https://github.com/user-attachments/assets/54f65968-c0e3-4276-8e21-84de71a779d6" />
+
+### After that click "Continue" to proceed to the next step 
+<img width="825" height="403" alt="image" src="https://github.com/user-attachments/assets/7d1266b3-8503-407d-8065-946333f8d863" />
+
+ # Finishing the Detection Rule
+ Now, I am going to name my rule, add description, severity, and risk score. and click "continue". 
+<img width="865" height="589" alt="image" src="https://github.com/user-attachments/assets/722f72fd-c4e4-426f-9fcd-002bbc5d05fc" />
+<img width="1031" height="671" alt="image" src="https://github.com/user-attachments/assets/26a5ba69-a619-42a3-89a6-a09aec572f5f" />
