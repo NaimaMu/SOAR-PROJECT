@@ -30,3 +30,4 @@ querry: event.code:"4624"
 
      d. Now I am going to click on where it says "Threshold"
 <img width="1082" height="700" alt="image" src="https://github.com/user-attachments/assets/b3e5ec40-e436-45eb-8f62-76937025c804" />
+
