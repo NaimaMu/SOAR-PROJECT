@@ -49,5 +49,7 @@ This means the alert will trigger if there are 5 failed login attempts within 5 
 <img width="1031" height="671" alt="image" src="https://github.com/user-attachments/assets/26a5ba69-a619-42a3-89a6-a09aec572f5f" />
 
 # Schedule the rule
-<img width="940" height="335" alt="image" src="https://github.com/user-attachments/assets/6b35abc2-dcd8-4667-9205-4f4a172ef065" />
-     - This means Elastic Checks for fialed login every 5 minutes and 
+<img width="904" height="325" alt="image" src="https://github.com/user-attachments/assets/29233ebb-803c-44c3-b31e-0d9a19d2d751" />
+     - This means Elastic Checks for fialed login every 5 minutes and also checks the last 1 minute just in case it missed something. 
+     
+Click "Continue"
