@@ -23,11 +23,10 @@ querry: event.code:"4624"
 # Now Lets create a detection rule
      a. in Kibana, go to Security
      b. Then go to Rules (Or Detection rules)
-     c. now click Create new rule
-
 <img width="744" height="622" alt="image" src="https://github.com/user-attachments/assets/f9eeae19-3451-43ab-b4b3-9e929021bcae" />
 
-
+     c. now click Create new rule
+<img width="743" height="619" alt="image" src="https://github.com/user-attachments/assets/b9bcaaef-7cc6-463b-ac17-2cfa5b2298ea" />
 
 
 
