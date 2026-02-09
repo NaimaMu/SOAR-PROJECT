@@ -29,8 +29,13 @@ querry: event.code:"4624"
 
 
 
+# Setting up RUle Detection
+     a. go to Security 
+     b. click Set up Security
+<img width="929" height="573" alt="image" src="https://github.com/user-attachments/assets/d3997c1b-1832-4009-bbca-5e4db0d26cb4" />
 
 
+# Creating a Detection Rule
 
 
 
