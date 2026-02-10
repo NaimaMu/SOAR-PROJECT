@@ -32,3 +32,13 @@ As we can see this, Shuffle is now listening for incoming alerts from ELK.
 For this step it sends alerts from ELK to Shuffle
 
 1. Open Kibana and go to "Security" then click "Rules"
+
+2. click the rule that I created already that named "Windows Failed Login Attempts"
+
+3. click "Edit Rule" and scroll down to "Actions" and then click "Add action"
+
+4. Now select "Webhook" and then create a new "Webhook Connector"
+
+5. Now paste the Shuffle "Webhook URL" as the connector URL and then save the connector
+
+Kibana now knows where to send alerts when the rule trigered.
