@@ -24,10 +24,7 @@ Overview:
 <img width="878" height="645" alt="image" src="https://github.com/user-attachments/assets/89f4f848-2cd4-48c4-80e7-d1bc2efba40b" />
 <img width="902" height="650" alt="image" src="https://github.com/user-attachments/assets/65396ed8-5b4a-4e03-a27f-a953b125faa3" />
 
-As we can see this, Shuffle is now listening for incoming alerts from ELK.
-
-
-
+As we can see, Shuffle is now listening for incoming alerts from ELK.
 
 # Step 2: Configure The Webhook Action in Kibana
 For this step it sends alerts from ELK to Shuffle
@@ -48,7 +45,10 @@ For this step it sends alerts from ELK to Shuffle
 4. Now select "Webhook" and then create a new "Webhook Connector"
 <img width="789" height="587" alt="image" src="https://github.com/user-attachments/assets/6ce36ef2-0278-4ec9-8d12-31ee5bcf6bb1" />
 
+IMPORTANT NOTE ABOUT ELASTIC LICENSING:
+- Using a webhook action in Kibana requires an Elastic Gold License.
+<img width="503" height="517" alt="image" src="https://github.com/user-attachments/assets/30a6afc6-aa83-454b-ab2a-87041282f681" />
+Since I'm using the free Elastic license, I cannot send alerts directly from Kibana to Shuffle using a webhook.  Because of this, I need to use a different approach.
 
-5. Now paste the Shuffle "Webhook URL" as the connector URL and then save the connector
-
-Kibana now knows where to send alerts when the rule trigered.
+# Step 3: Use Index Action as a Workaround
+- To work around the license limitation, I configure Kibana to store alerts in an Elasticsearch index instead of sending them directly. 
