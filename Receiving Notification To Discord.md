@@ -20,3 +20,4 @@ I created a server called "Wazuh alert Notification" in discord. The purpose of 
 <img width="736" height="285" alt="image" src="https://github.com/user-attachments/assets/636b56fa-abed-4348-bf3c-c9fbdcf4cdfd" />
 <img width="462" height="195" alt="image" src="https://github.com/user-attachments/assets/d5089d6c-1b34-4d32-8e5a-417101a26b3f" />
 
+ 
