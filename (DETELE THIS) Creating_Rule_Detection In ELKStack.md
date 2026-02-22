@@ -63,5 +63,5 @@ At this step, I did not add any actionns. I left everything empty and clicked cr
 <img width="625" height="508" alt="image" src="https://github.com/user-attachments/assets/98345787-2c89-47c5-9c90-00b62d8f9ae4" />
 
 # Finishing
-As we can see here, the rule has been created and now I can move on the the next step
+As we can see here, the rule has been created and now I can move on the the next step which is integrating ELK with Shuffle
 <img width="825" height="507" alt="image" src="https://github.com/user-attachments/assets/c2c5ed2c-52c5-4ff8-98fe-eca843349d1d" />
