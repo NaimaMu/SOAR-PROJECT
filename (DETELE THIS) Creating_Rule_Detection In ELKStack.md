@@ -35,10 +35,11 @@ querry: event.code:"4624"
 I set the rule like this:
      - Index patterns: winlogbeat-* ,  logs-*
      - query:  event.code: "4625"
-     - Threshold: 5
+     - Group by : source.Ip, @timestamp, and agent.name
+     - Threshold: 1
      - Time window: 5 minutes
 This means the alert will trigger if there are 5 failed login attempts within 5 minutes. 
-<img width="785" height="542" alt="image" src="https://github.com/user-attachments/assets/54f65968-c0e3-4276-8e21-84de71a779d6" />
+<img width="555" height="344" alt="image" src="https://github.com/user-attachments/assets/50c7e58f-1013-41ed-b458-0fe07faa83b4" />
 
 ### After that click "Continue" to proceed to the next step 
 <img width="825" height="403" alt="image" src="https://github.com/user-attachments/assets/7d1266b3-8503-407d-8065-946333f8d863" />
