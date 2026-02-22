@@ -68,3 +68,11 @@ As we can see here, the rule has been created. I am going to log my windows seve
 
 I locked my windows and logedin incorect password. And this
 <img width="1268" height="659" alt="image" src="https://github.com/user-attachments/assets/f312e4b1-eee2-49d9-8b02-69cb45940f4e" />
+<img width="1263" height="568" alt="image" src="https://github.com/user-attachments/assets/bad2831c-6a07-4056-8d38-b9328febae97" />
+
+# Let's click "Take an action " and then click "Investigate in timeline"  to see if it gives us more detail about this alert 
+<img width="493" height="617" alt="image" src="https://github.com/user-attachments/assets/57d30a47-8c44-4da3-a7a4-a8713ee373ca" />
+
+This is what I am seeing: 
+<img width="1778" height="662" alt="image" src="https://github.com/user-attachments/assets/9a67ede3-f486-4129-b165-82fdb19f4b37" />
+<img width="1103" height="571" alt="image" src="https://github.com/user-attachments/assets/172fd3a4-6675-41d1-a478-2313a1aafdb3" />
