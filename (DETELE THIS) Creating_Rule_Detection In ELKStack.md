@@ -1,3 +1,4 @@
+<img width="555" height="344" alt="image" src="https://github.com/user-attachments/assets/ad27a7bf-4fd5-4108-9bdf-6655d1cf5093" />
 # OVERVIEW:
 - In this secion, I am integrating the ELK Stack with Shuffle.My goal is to send security alerts from ELK to Shuffle so that Shuffle can start an automation when suspicious login activity is detected.
 
@@ -38,7 +39,8 @@ I set the rule like this:
      - Group by : source.Ip, @timestamp, and agent.name
      - Threshold: 1
      - Time window: 5 minutes
-This means the alert will trigger if there are 5 failed login attempts within 5 minutes. 
+This means the alert will trigger if there are 5 failed login attempts within 5 minutes.
+
 <img width="555" height="344" alt="image" src="https://github.com/user-attachments/assets/50c7e58f-1013-41ed-b458-0fe07faa83b4" />
 
 ### After that click "Continue" to proceed to the next step 
