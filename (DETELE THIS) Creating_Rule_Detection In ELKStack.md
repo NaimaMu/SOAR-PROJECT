@@ -64,5 +64,4 @@ At this step, I did not add any actionns. I left everything empty and clicked cr
 
 # Finishing
 As we can see here, the rule has been created and now I can move on the the next step
-<img width="1036" height="487" alt="image" src="https://github.com/user-attachments/assets/698d8765-f448-45c6-ae76-0e2e347b1f4f" />
-
+<img width="825" height="507" alt="image" src="https://github.com/user-attachments/assets/c2c5ed2c-52c5-4ff8-98fe-eca843349d1d" />
