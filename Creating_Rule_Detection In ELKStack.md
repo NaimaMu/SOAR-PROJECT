@@ -4,27 +4,32 @@
 
 
 # Step 1: Confirm ELK is receiving Windows Login Logs
-1.1 Check failed login events (Event ID 4625)
+### 1.1 Check failed login events (Event ID 4625)
 First I want to confirm if ELK is receiving failed login attempts. 
      1. Open "Kibana"  
      2. Navigate "Discover"
      3. Select the data view "winlogbeat-*"
      4. Now I am going to run a querry to see if my ELKstack is detecting failed login attempts. 
-      Querry: event.code: "4625"    
+           Querry: event.code: "4625"    
 <img width="746" height="623" alt="image" src="https://github.com/user-attachments/assets/ad3dfe15-d5bf-4bcb-8f04-89b186ca51c7" />
 
 At this time, no results are returned, which indicates there were no failed login attempts within the selected time range. 
+____________________________________________________________________________________________________
 
-Now lets check if there are any successful login attemp:
-querry: event.code:"4624"
+### 1.2 Verify successful login events (Event ID 4624) 
+To confirm log ingestion is working correctly, I search for successful logins 
+           querry: event.code:"4624"
+This query shows results, which confirms that Winlogbeat is sending Windows login logs to ELK
 
 <img width="966" height="584" alt="image" src="https://github.com/user-attachments/assets/32748502-a770-427c-954e-51e3e177cd90" />
-- We can see that that querry worked and now returns a successful login attempts.
 
+____________________________________________________________________________________________________
 
-# Now Lets create a detection rule
-     a. in Kibana, go to Security
-     b. Then go to Rules (Or Detection rules)
+# Step 2: Create a Detection Rule for Failed Logins
+### 2.1 Open Detection Rule
+- Now that I know logs are coming in, I create a rule. 
+     1. in Kibana, go to Security
+     2. Then go to Rules (Or Detection rules)
 <img width="744" height="622" alt="image" src="https://github.com/user-attachments/assets/f9eeae19-3451-43ab-b4b3-9e929021bcae" />
 
      c. now click Create new rule
