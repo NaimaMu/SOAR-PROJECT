@@ -1,12 +1,23 @@
 In this step, I enable "Windos Security Logging" so Windows records "Success and failed logins". This is important because Winlogbeat/ELK needs these logs to show events like "4264" (Success) and "4625" (Failure).
 
-## Steos
+## Steps
 
-1. I open "Local Security Policy" 
+1. open Local Security Policy
+
+  - On my windows machine, I open "Local Security Policy". 
+  - I expan "Security Settings".
+  - Then I click "Advanced Audit Policy Configuration". 
 <img width="601" height="399" alt="image" src="https://github.com/user-attachments/assets/2eeb34d7-d3ca-4888-8cfa-7f44633b42e3" />
 
-
+2. Step 2: Go to Audit Logon settings
+  - I expand "System Audit Policies - Local Group Policy".
+  - I then Expand the "Logon/logoff"
+  - Then click "Audit Logon". 
 <img width="530" height="402" alt="image" src="https://github.com/user-attachments/assets/be28eca5-49c8-43b1-be74-0028d922314c" />
+
+3. Step 3: Enable Success and Failure Loggin
+   - I right-click "Audit Logon" and choose "Properties"
+   - 
 
 <img width="597" height="504" alt="image" src="https://github.com/user-attachments/assets/d20a5c74-9a5b-4235-a1f3-eb7011b61e6a" />
 
