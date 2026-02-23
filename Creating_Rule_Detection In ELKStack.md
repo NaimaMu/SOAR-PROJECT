@@ -29,7 +29,8 @@ ________________________________________________________________________________
 
 # Step 2: Create a Detection Rule for Failed Logins
 ### 2.1 Open Detection Rule and Create a new rule
-- Now that I know logs are coming in, I create a rule. 
+- Now that I know logs are coming in, I create a rule.
+
      1. in Kibana, go to Security
      2. Then go to Rules (Or Detection rules)
 <img width="744" height="622" alt="image" src="https://github.com/user-attachments/assets/f9eeae19-3451-43ab-b4b3-9e929021bcae" />
