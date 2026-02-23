@@ -57,15 +57,28 @@ This means the alert will trigger if there are 3 faild login attempts within 5 m
 <img width="825" height="403" alt="image" src="https://github.com/user-attachments/assets/7d1266b3-8503-407d-8065-946333f8d863" />
 
  # Finishing the Detection Rule
- Now, I am going to name my rule, add description, severity, and risk score. and click "continue". 
+ Now I complete the rule details by adding by adding a name, description, severity, risk score, and tags
+
+ - Rule name: Windows Failed Login Attempts
+ - Description: This rule detects multiple failed login attempts on a Windows 11 system, which may indicate brute-force or unauthorized access activity.
+ - Severity: Medium
+ - Risk Score: 47
+ - Tags: failed-login, windows, bruteforce
+
+After I finish entering the details, I click "Continue" 
 <img width="865" height="589" alt="image" src="https://github.com/user-attachments/assets/722f72fd-c4e4-426f-9fcd-002bbc5d05fc" />
 <img width="1031" height="671" alt="image" src="https://github.com/user-attachments/assets/26a5ba69-a619-42a3-89a6-a09aec572f5f" />
 
+
 # Schedule the rule
+Next, I set how often the rule should run. 
+- Runs every: 5 minutes
+- Additional look-back time: 1 minute
+
+This means Elastic will check for failed logins every 5 minutes, and it will also look back an extral 1 minute to help avoid missing events. 
+
+After setting the schedule, I click "COntinue" 
 <img width="904" height="325" alt="image" src="https://github.com/user-attachments/assets/29233ebb-803c-44c3-b31e-0d9a19d2d751" />
-     - This means Elastic Checks for fialed login every 5 minutes and also checks the last 1 minute just in case it missed something. 
-     
-Click "Continue"
 
 # Rule Actions
 At this step, I did not add any actionns. I left everything empty and clicked create rule. his is because I want to first make sure the rule works before connecting it to Shuffle.
