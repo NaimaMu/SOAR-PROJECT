@@ -3,7 +3,7 @@
 
 
 
-# Step 1: Confirm ELK is receiving Windows Login Logs
+# Step 1: Confirm ELK is receiving Windows Login Logs 
 
 ### 1.1 Check failed login events (Event ID 4625)
 First I want to confirm if ELK is receiving failed login attempts. 
