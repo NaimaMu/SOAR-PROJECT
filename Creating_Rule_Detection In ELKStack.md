@@ -52,8 +52,6 @@ This means the alert will trigger if there are 1 failed login attempts within 5 
 after I finish, I click "Continue to move to the next step. 
 <img width="543" height="376" alt="image" src="https://github.com/user-attachments/assets/7ad05ecb-8bbd-4351-93cc-ad9418d1e648" />
 
-<img width="555" height="344" alt="image" src="https://github.com/user-attachments/assets/50c7e58f-1013-41ed-b458-0fe07faa83b4" />
-
 ### After that click "Continue" to proceed to the next step 
 <img width="825" height="403" alt="image" src="https://github.com/user-attachments/assets/7d1266b3-8503-407d-8065-946333f8d863" />
 
