@@ -12,9 +12,6 @@ First I want to confirm if ELK is receiving failed login attempts.
      3. Select the data view "winlogbeat-*"
      4. Now I am going to run a querry to see if my ELKstack is detecting failed login attempts. 
            Querry: event.code: "4625"    
-
-<img width="543" height="376" alt="image" src="https://github.com/user-attachments/assets/be6c0492-90e4-43f4-80c2-54e0e996e2d5" />
-
 <img width="746" height="623" alt="image" src="https://github.com/user-attachments/assets/ad3dfe15-d5bf-4bcb-8f04-89b186ca51c7" />
 
 At this time, no results are returned, which indicates there were no failed login attempts within the selected time range. 
