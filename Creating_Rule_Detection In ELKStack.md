@@ -46,7 +46,7 @@ I configure the threshold rule using these settings:
      - Index patterns: winlogbeat-* ,  logs-*
      - query:  event.code: "4625"
      - Group by : source.Ip, @timestamp, and agent.name
-     - Threshold: 1
+     - Threshold: 1 
      - Time window: 5 minutes
 This means the alert will trigger if there are 5 failed login attempts within 5 minutes.
 
