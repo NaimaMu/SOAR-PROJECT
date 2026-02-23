@@ -92,7 +92,12 @@ ________________________________________________________________________________
 After creating the rule, I confirm it was saved successfully. I can see the rule details, including the query, threshold settings, and schedule. 
 <img width="825" height="507" alt="image" src="https://github.com/user-attachments/assets/c2c5ed2c-52c5-4ff8-98fe-eca843349d1d" />
 
-I locked my windows and logedin incorect password. And this
+# Test the detection rule
+Next, I test the rule by generating fialed login attempts on my WIndows machine. I lock my computer and enter the wrong password several times to trigger Event ID 4625. 
+
+After that, I go back to Kibana:
+     1. Go to "Security" then click "Alerts"
+
 <img width="1268" height="659" alt="image" src="https://github.com/user-attachments/assets/f312e4b1-eee2-49d9-8b02-69cb45940f4e" />
 <img width="1263" height="568" alt="image" src="https://github.com/user-attachments/assets/bad2831c-6a07-4056-8d38-b9328febae97" />
 
