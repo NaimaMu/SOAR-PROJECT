@@ -95,14 +95,15 @@ After creating the rule, I confirm it was saved successfully. I can see the rule
 ## 3.2 Test the detection rule
 Next, I test the rule by generating fialed login attempts on my WIndows machine. I lock my computer and enter the wrong password several times to trigger Event ID 4625. 
 
-After that, I go back to Kibana:
+After that, I return  to Kibana:
      1. Go to "Security" then click "Alerts"
 
 <img width="1268" height="659" alt="image" src="https://github.com/user-attachments/assets/f312e4b1-eee2-49d9-8b02-69cb45940f4e" />
 <img width="1263" height="568" alt="image" src="https://github.com/user-attachments/assets/bad2831c-6a07-4056-8d38-b9328febae97" />
 
 ## 3.3 Open the Alert details 
-I click the alert to open the details panel. Here I can review Information like the rule name., severity, risk score, and related fields (host, user, source IP). 
+I click the alert to open the details panel. Here, I can review Information like the rule name., severity, risk score, and related fields (host, user, source IP). 
+
 <img width="493" height="617" alt="image" src="https://github.com/user-attachments/assets/57d30a47-8c44-4da3-a7a4-a8713ee373ca" />
 
 ## 3.4 Investigate the alert in Timeline 
