@@ -117,10 +117,13 @@ This allows me to view the events connected to the alert in a timeline format.
 <img width="477" height="572" alt="image" src="https://github.com/user-attachments/assets/4781a84c-f219-4116-99f0-3a51adfd551c" />
 
 # Additional Step
-Checking if I can see this failed login attemps in kibana
+To double-check that the failed login events are showing in Kibana, I go back to "Discover" and search for failed logins again. 
+
+     Query: event.code: "4625"
+
 <img width="995" height="516" alt="image" src="https://github.com/user-attachments/assets/1ffea94f-2710-4629-9909-9eda4d22c9d1" />
 
-now, as we can see here, it detectes and I am able to see Event.code:4625 here
-
+Now I can see the fialed login event s in the results, which confirms that ELK is detecting and Indexing Event ID 4625 correctly. 
+Next, I will move on to the next step which is : Integrating the ELK Stack with Shuffle SOAR.
 
 Now Moving to the Next step which is "Integrating ELK stack with SHUFFLE"  
