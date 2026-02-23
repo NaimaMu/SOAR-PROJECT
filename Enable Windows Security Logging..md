@@ -17,7 +17,7 @@ In this step, I enable "Windos Security Logging" so Windows records "Success and
 
 3. Step 3: Enable Success and Failure Loggin
     - I right-click "Audit Logon" and check "success " and "Failure".
-   - Then Clicked "Apply"
+    - Then Clicked "Apply"
 
 <img width="597" height="504" alt="image" src="https://github.com/user-attachments/assets/d20a5c74-9a5b-4235-a1f3-eb7011b61e6a" />
 
