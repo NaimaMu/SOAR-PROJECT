@@ -43,6 +43,7 @@ On the "Create new rule" screen, I select "Threshold" because I want an alert to
 
 # Configure the Threshold rule (failed logins)
 I configure the threshold rule using these settings:
+
      - Index patterns: winlogbeat-* ,  logs-*
      - query:  event.code: "4625"
      - Group by : source.Ip, @timestamp, and agent.name
