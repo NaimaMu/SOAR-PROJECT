@@ -1,17 +1,19 @@
 # OVERVIEW:
-- In this secion, I am integrating the ELK Stack with Shuffle.My goal is to send security alerts from ELK to Shuffle so that Shuffle can start an automation when suspicious login activity is detected.
+- In this section, I integrate the ELK Stack with Shuffle SOAR. My goal is to detect suspicious Windows login activity in ELK firs, then later send those alerts to SHuffle so Shuffle can start an automation workflow.
 
-     
-SO Let's Get start!
 
-# Let's confirm if ELK is receiving Windows Login Logs by doing the following:
-     a. Open Kibana  
-     b. Go to Discover
-     c. Selecting my dat view which is winlogbeat-*
-     d. Now I am going to search if I have a failed logins or successful logins by searching this querry : 
-          event.code: "4625"    
+
+# Step 1: Confirm ELK is receiving Windows Login Logs
+1.1 Check failed login events (Event ID 4625)
+First I want to confirm if ELK is receiving failed login attempts. 
+     1. Open "Kibana"  
+     2. Navigate "Discover"
+     3. Select the data view "winlogbeat-*"
+     4. Now I am going to run a querry to see if my ELKstack is detecting failed login attempts. 
+      Querry: event.code: "4625"    
 <img width="746" height="623" alt="image" src="https://github.com/user-attachments/assets/ad3dfe15-d5bf-4bcb-8f04-89b186ca51c7" />
-- Did not return any result which means there is no unsuccessfull login attempt
+
+At this time, no results are returned, which indicates there were no failed login attempts within the selected time range. 
 
 Now lets check if there are any successful login attemp:
 querry: event.code:"4624"
