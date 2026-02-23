@@ -81,7 +81,7 @@ After setting the schedule, I click "COntinue"
 <img width="904" height="325" alt="image" src="https://github.com/user-attachments/assets/29233ebb-803c-44c3-b31e-0d9a19d2d751" />
 
 # Rule Actions
-At this step, I do not add any actions yet, I leave the actions section empty because I want to confirm the rule works correctly before connecting it to SHuffle(SOAR). 
+At this step, I do not add any actions yet, I leave the actions section empty because I want to confirm the rule works correctly before connecting it to Shuffle(SOAR). 
 Then I click "Create rule and Enable" 
 <img width="625" height="508" alt="image" src="https://github.com/user-attachments/assets/98345787-2c89-47c5-9c90-00b62d8f9ae4" />
 
