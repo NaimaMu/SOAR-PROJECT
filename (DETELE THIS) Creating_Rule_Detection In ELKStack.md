@@ -74,6 +74,7 @@ I locked my windows and logedin incorect password. And this
 <img width="493" height="617" alt="image" src="https://github.com/user-attachments/assets/57d30a47-8c44-4da3-a7a4-a8713ee373ca" />
 
 This is what I am seeing: 
+<img width="572" height="475" alt="image" src="https://github.com/user-attachments/assets/47cb71d5-9415-4711-8868-a45abf0e732e" />
 <img width="1778" height="662" alt="image" src="https://github.com/user-attachments/assets/9a67ede3-f486-4129-b165-82fdb19f4b37" />
 <img width="1103" height="571" alt="image" src="https://github.com/user-attachments/assets/172fd3a4-6675-41d1-a478-2313a1aafdb3" />
 <img width="477" height="572" alt="image" src="https://github.com/user-attachments/assets/4781a84c-f219-4116-99f0-3a51adfd551c" />
