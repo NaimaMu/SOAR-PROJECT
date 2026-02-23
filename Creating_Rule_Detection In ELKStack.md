@@ -29,12 +29,14 @@ ________________________________________________________________________________
 
 # Step 2: Create a Detection Rule for Failed Logins
 ### 2.1 Open Detection Rule and Create a new rule
-- Now that I know logs are coming in, I create a rule.
+- Now that I have confirmed logs are coming into ELK, I create a detection rule for failed login attempts.
 
      1. in Kibana, go to Security
-     2. Then go to Rules (Or Detection rules)
+     2. Click Rules (or Detection rules) 
 <img width="744" height="622" alt="image" src="https://github.com/user-attachments/assets/f9eeae19-3451-43ab-b4b3-9e929021bcae" />
 
+### 2.2 Select "Threshold" rule type
+On the "Create new rule" screen, I select "Threshold" because I want an alert to trigger only when failed logins happen multiple times within a short time period 
      c. now click Create new rule
 <img width="743" height="619" alt="image" src="https://github.com/user-attachments/assets/b9bcaaef-7cc6-463b-ac17-2cfa5b2298ea" /> 
 
