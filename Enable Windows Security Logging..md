@@ -1,3 +1,8 @@
+In this step, I enable "Windos Security Logging" so Windows records "Success and failed logins". This is important because Winlogbeat/ELK needs these logs to show events like "4264" (Success) and "4625" (Failure).
+
+## Steos
+
+1. I open "Local Security Policy" 
 <img width="601" height="399" alt="image" src="https://github.com/user-attachments/assets/2eeb34d7-d3ca-4888-8cfa-7f44633b42e3" />
 
 
