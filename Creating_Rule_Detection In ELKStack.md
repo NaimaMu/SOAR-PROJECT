@@ -92,7 +92,7 @@ ________________________________________________________________________________
 After creating the rule, I confirm it was saved successfully. I can see the rule details, including the query, threshold settings, and schedule. 
 <img width="825" height="507" alt="image" src="https://github.com/user-attachments/assets/c2c5ed2c-52c5-4ff8-98fe-eca843349d1d" />
 
-# Test the detection rule
+## 3.2 Test the detection rule
 Next, I test the rule by generating fialed login attempts on my WIndows machine. I lock my computer and enter the wrong password several times to trigger Event ID 4625. 
 
 After that, I go back to Kibana:
@@ -101,10 +101,15 @@ After that, I go back to Kibana:
 <img width="1268" height="659" alt="image" src="https://github.com/user-attachments/assets/f312e4b1-eee2-49d9-8b02-69cb45940f4e" />
 <img width="1263" height="568" alt="image" src="https://github.com/user-attachments/assets/bad2831c-6a07-4056-8d38-b9328febae97" />
 
-# Let's click "Take an action " and then click "Investigate in timeline"  to see if it gives us more detail about this alert 
+## 3.3 Open the Alert details 
+I click the alert to open the details panel. Here I can review Information like the rule name., severity, risk score, and related fields (host, user, source IP). 
 <img width="493" height="617" alt="image" src="https://github.com/user-attachments/assets/57d30a47-8c44-4da3-a7a4-a8713ee373ca" />
 
-This is what I am seeing: 
+## 3.4 Investigate the alert in Timeline 
+To get more details about the alert, I click: 
+     "Take action"  then "Investigate in timeline"
+This allows me to view the events connected to the alert in a timeline format. 
+
 <img width="572" height="475" alt="image" src="https://github.com/user-attachments/assets/47cb71d5-9415-4711-8868-a45abf0e732e" />
 <img width="1778" height="662" alt="image" src="https://github.com/user-attachments/assets/9a67ede3-f486-4129-b165-82fdb19f4b37" />
 <img width="1103" height="571" alt="image" src="https://github.com/user-attachments/assets/172fd3a4-6675-41d1-a478-2313a1aafdb3" />
