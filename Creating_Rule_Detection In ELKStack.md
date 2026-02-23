@@ -85,8 +85,11 @@ At this step, I do not add any actions yet, I leave the actions section empty be
 Then I click "Create rule and Enable" 
 <img width="625" height="508" alt="image" src="https://github.com/user-attachments/assets/98345787-2c89-47c5-9c90-00b62d8f9ae4" />
 
-# Finishing
-As we can see here, the rule has been created. I am going to log my windows several times in order to check if the rule is working or now. 
+____________________________________________________________________________________________________________________________________________________
+# STEP 3: Test the Rule and Review the Alert 
+
+## 3.1 Confirm the rule is created 
+After creating the rule, I confirm it was saved successfully. I can see the rule details, including the query, threshold settings, and schedule. 
 <img width="825" height="507" alt="image" src="https://github.com/user-attachments/assets/c2c5ed2c-52c5-4ff8-98fe-eca843349d1d" />
 
 I locked my windows and logedin incorect password. And this
