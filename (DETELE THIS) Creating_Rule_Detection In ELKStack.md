@@ -40,6 +40,7 @@ I set the rule like this:
      - Threshold: 1
      - Time window: 5 minutes
 This means the alert will trigger if there are 5 failed login attempts within 5 minutes.
+<img width="555" height="344" alt="image" src="https://github.com/user-attachments/assets/ad27a7bf-4fd5-4108-9bdf-6655d1cf5093" />
 
 <img width="555" height="344" alt="image" src="https://github.com/user-attachments/assets/50c7e58f-1013-41ed-b458-0fe07faa83b4" />
 
