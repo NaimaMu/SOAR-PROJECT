@@ -85,7 +85,7 @@ At this step, I do not add any actions yet, I leave the actions section empty be
 Then I click "Create rule and Enable" 
 <img width="625" height="508" alt="image" src="https://github.com/user-attachments/assets/98345787-2c89-47c5-9c90-00b62d8f9ae4" />
 
-____________________________________________________________________________________________________________________________________________________
+________________________________________________________________________________________________________________________________________________________________________________________________________________________________
 # STEP 3: Test the Rule and Review the Alert 
 
 ## 3.1 Confirm the rule is created 
@@ -115,7 +115,7 @@ This allows me to view the events connected to the alert in a timeline format.
 <img width="1778" height="662" alt="image" src="https://github.com/user-attachments/assets/9a67ede3-f486-4129-b165-82fdb19f4b37" />
 <img width="1103" height="571" alt="image" src="https://github.com/user-attachments/assets/172fd3a4-6675-41d1-a478-2313a1aafdb3" />
 <img width="477" height="572" alt="image" src="https://github.com/user-attachments/assets/4781a84c-f219-4116-99f0-3a51adfd551c" />
-
+___________________________________________________________________________________________________________________________________________________________________________________________________________________________________
 # Additional Step
 To double-check that the failed login events are showing in Kibana, I go back to "Discover" and search for failed logins again. 
 
