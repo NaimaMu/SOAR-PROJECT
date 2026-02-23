@@ -42,7 +42,7 @@ On the "Create new rule" screen, I select "Threshold" because I want an alert to
 <img width="1082" height="700" alt="image" src="https://github.com/user-attachments/assets/b3e5ec40-e436-45eb-8f62-76937025c804" />
 
 # Configure the Threshold rule (failed logins)
-I set the rule like this:
+I configure the threshold rule using these settings:
      - Index patterns: winlogbeat-* ,  logs-*
      - query:  event.code: "4625"
      - Group by : source.Ip, @timestamp, and agent.name
