@@ -37,10 +37,8 @@ ________________________________________________________________________________
 
 ### 2.2 Select "Threshold" rule type
 On the "Create new rule" screen, I select "Threshold" because I want an alert to trigger only when failed logins happen multiple times within a short time period 
-     c. now click Create new rule
-<img width="743" height="619" alt="image" src="https://github.com/user-attachments/assets/b9bcaaef-7cc6-463b-ac17-2cfa5b2298ea" /> 
 
-     d. Now I am going to click on where it says "Threshold"
+<img width="743" height="619" alt="image" src="https://github.com/user-attachments/assets/b9bcaaef-7cc6-463b-ac17-2cfa5b2298ea" /> 
 <img width="1082" height="700" alt="image" src="https://github.com/user-attachments/assets/b3e5ec40-e436-45eb-8f62-76937025c804" />
 
 # Configure the Threshold rule (failed logins)
