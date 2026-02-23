@@ -4,6 +4,7 @@
 
 
 # Step 1: Confirm ELK is receiving Windows Login Logs
+
 ### 1.1 Check failed login events (Event ID 4625)
 First I want to confirm if ELK is receiving failed login attempts. 
      1. Open "Kibana"  
@@ -17,6 +18,7 @@ At this time, no results are returned, which indicates there were no failed logi
 ____________________________________________________________________________________________________
 
 ### 1.2 Verify successful login events (Event ID 4624) 
+
 To confirm log ingestion is working correctly, I search for successful logins 
            querry: event.code:"4624"
 This query shows results, which confirms that Winlogbeat is sending Windows login logs to ELK
@@ -26,7 +28,7 @@ This query shows results, which confirms that Winlogbeat is sending Windows logi
 ____________________________________________________________________________________________________
 
 # Step 2: Create a Detection Rule for Failed Logins
-### 2.1 Open Detection Rule
+### 2.1 Open Detection Rule and Create a new rule
 - Now that I know logs are coming in, I create a rule. 
      1. in Kibana, go to Security
      2. Then go to Rules (Or Detection rules)
