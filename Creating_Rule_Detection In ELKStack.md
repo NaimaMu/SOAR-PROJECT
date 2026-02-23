@@ -51,9 +51,8 @@ I configure the threshold rule using these settings:
      - Time window: 5 minutes
 
 This means the alert will trigger if there are 1 faild login attempts within 5 minutes (per source IP a, timestamp, and agent.name) after I finish, I click "Continue" to move to the next step. 
-<img width="611" height="504" alt="image" src="https://github.com/user-attachments/assets/21065028-943f-45b7-838e-cbbcfd6bfe75" />
 
-<img width="543" height="376" alt="image" src="https://github.com/user-attachments/assets/7ad05ecb-8bbd-4351-93cc-ad9418d1e648" />
+<img width="611" height="504" alt="image" src="https://github.com/user-attachments/assets/21065028-943f-45b7-838e-cbbcfd6bfe75" />
 
 <img width="825" height="403" alt="image" src="https://github.com/user-attachments/assets/7d1266b3-8503-407d-8065-946333f8d863" />
 
