@@ -8,7 +8,7 @@ This shows the overall flow of my SOAR project and what I am trying to achieve. 
 <img width="812" height="595" alt="image" src="https://github.com/user-attachments/assets/e031ebfe-85de-4ccd-a907-d02a68334bf4" />
 
 New one: 
-<img width="983" height="686" alt="image" src="https://github.com/user-attachments/assets/e0191c67-4352-4e84-8829-b93886884277" />
+<img width="795" height="533" alt="image" src="https://github.com/user-attachments/assets/2ddbaac6-6a51-45e9-9c8d-d5bf6e82d490" />
 
 ## Tools I used
 - Shuffle(SOAR)
