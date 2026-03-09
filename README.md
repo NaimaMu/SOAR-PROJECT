@@ -5,9 +5,7 @@ In this project, I am building a simple SOAR automation to detect unusual user l
 
 ## Diagram for this Project
 This shows the overall flow of my SOAR project and what I am trying to achieve. I am using Windows 11 to generate user login events, which are sent to the ELK Stack for analysis. When the ELK Stack detects suspicious login activity, it sends an alert to Shuffle, which runs an automation and sends a notification to Discord so I can review the alert and take the proper action.
-<img width="812" height="595" alt="image" src="https://github.com/user-attachments/assets/e031ebfe-85de-4ccd-a907-d02a68334bf4" />
 
-New one: 
 <img width="795" height="533" alt="image" src="https://github.com/user-attachments/assets/2ddbaac6-6a51-45e9-9c8d-d5bf6e82d490" />
 
 ## Tools I used
