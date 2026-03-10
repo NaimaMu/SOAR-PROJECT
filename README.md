@@ -12,6 +12,7 @@ This shows the overall flow of my SOAR project and what I am trying to achieve. 
 - Shuffle(SOAR)
 - ELK Stack(SIEM)
 - windows 11
+- Python(forwarding ELK logs to Shuffle)
 - Discord(Notification)
 - Virtualbox(HOMELAB)
 
