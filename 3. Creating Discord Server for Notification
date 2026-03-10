@@ -1,4 +1,4 @@
-## CREATING A SERVER IN DISCORD TO RE RECEIVE ALERTS 
+## CREATING A DISCORD Server TO RECEIVE ALERTS FROM SHUFFLE(SOAR)
 
 I created a server called "ELKstack alert Notification" in discord. The purpose of this server is to get notification from Shuffle that tells me alerts that its receiving from wazuh. 
 
