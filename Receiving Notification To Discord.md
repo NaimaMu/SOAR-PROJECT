@@ -8,7 +8,7 @@ I created a server called "ELKstac alert Notification" in discord. The purpose o
 <img width="871" height="740" alt="image" src="https://github.com/user-attachments/assets/b5bf38f6-ed54-465b-a761-1f349d69a2f2" />
 
   - CLICK INTEGRATION
-<img width="1053" height="808" alt="image" src="https://github.com/user-attachments/assets/9105e6e1-d078-4db6-945a-1fbdf95dad77" />
+<img width="294" height="813" alt="image" src="https://github.com/user-attachments/assets/dd3db0d8-5fb0-416f-9dd0-07737330e6d3" />
 
   -  CREATING A WEBHOOK
 <img width="716" height="545" alt="image" src="https://github.com/user-attachments/assets/661e215b-d144-4dbf-bb37-5504ea1c6db4" />
