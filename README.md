@@ -1,4 +1,4 @@
-#  User Login Anomaly Detection
+#  SOAR Project
 
 ## Overview
 In this project, I am building a simple SOAR automation to detect unusual user login activity. I am using a homelab environment to show how security alerts move from detection to automated response.
