@@ -1,6 +1,4 @@
-# After finishing the main part of my project, I asked myself, "Do I have to manually run this script every time?" The answer is no. 
-
-In this file, I am going to document how I scheduled my Python script to run automatically every day so it can continue checking for failed login attempts on my machine. 
+ After finishing the main part of my project, I asked myself, "Do I have to manually run this script every time?" The answer is no. In this file, I am going to document how I scheduled my Python script to run automatically every day so it can continue checking for failed login attempts on my machine. 
 
 
 # Launch "Task Schedualer"
