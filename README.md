@@ -4,7 +4,7 @@
 In this project, I am building a simple SOAR automation to detect unusual user login activity. I am using a homelab environment to show how security alerts move from detection to automated response.
 
 ## Diagram for this Project
-This diagram shows how my SOAR(Security Orchestration Automation and Response) project works. Windows 11 generates login events, and the ELK Stack checks for failed login attempts. when an alert is triggered, a python script frowards it to Shuffle, which automates the process and sends a notification to Discord so I can review it in real time. This helps me practcieresponding to security alerts automatically in my homelab. 
+This diagram shows how my SOAR(Security Orchestration Automation and Response) project works. Windows 11 generates login events, and the ELK Stack checks for failed login attempts. when an alert is triggered, a python script frowards it to Shuffle, which automates the process and sends a notification to Discord so I can review it in real time. This helps me practcie responding to security alerts automatically in my homelab. 
 <img width="795" height="533" alt="image" src="https://github.com/user-attachments/assets/2ddbaac6-6a51-45e9-9c8d-d5bf6e82d490" />
 
 ## What I use In this Project
