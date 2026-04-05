@@ -10,7 +10,7 @@ This diagram shows how my SOAR(Security Orchestration Automation and Response) p
 ## What I use In this Project
 - Shuffle(SOAR)
 - ELK Stack(SIEM)
-- windows 11
+- Windows 11
 - Python(forwarding ELK logs to Shuffle)
 - Discord(Notification)
 - Virtualbox(HOMELAB)
