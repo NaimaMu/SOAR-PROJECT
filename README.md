@@ -18,10 +18,11 @@ This shows the overall flow of my SOAR project and what I am trying to achieve. 
 
 ## Explanation Of Each Tool
 ### ELKStack
-- The ELK Stack collects and analyzes login logs from my Windows 11 system. It is used to monitor user login activity and detect suspicious behavior. Dashboards and detection rules help visualize where login activity is coming from and identify potential security issues.
+- The ELK Stack collects and analyzes login logs from my Windows 11 system. It is used to monitor user login activity and detect suspicious behavior.
 
 ### Python Script
-  - Writting  basic python script that will forward ELK logs to shuffle especially for the failed login attempts.
+  - Baisc Python script thta forwars ELK logs to Shuffle for failed login attempts.
+  - The script is set up to run automatically using "Task Scheduler" on my windows 11 whenever I log in.
     
 ### Shuffle
 - I am using Shuffle as my SOAR platform.
@@ -34,5 +35,5 @@ analysis.
 
  ### Goal is:
    - To learn and practice basic SOAR automation
-   - to understand how security alerts move from detection to automated response
+   - Understand how security alerts move from detection to automated response.
    - To gain hands-on experience using SEIM and SOAR tools in my homelab environment
