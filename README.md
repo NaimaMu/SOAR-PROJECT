@@ -20,6 +20,9 @@ This shows the overall flow of my SOAR project and what I am trying to achieve. 
 ### ELKStack
 - The ELK Stack collects and analyzes login logs from my Windows 11 system. It is used to monitor user login activity and detect suspicious behavior. Dashboards and detection rules help visualize where login activity is coming from and identify potential security issues.
 
+### Python Script
+  - Writting  basic python script that will forward ELK logs to shuffle especially for the failed login attempts.
+    
 ### Shuffle
 - I am using Shuffle as my SOAR platform.
 - Shuffle receives alerts from the ELK Stack when suspicious activity is detected.
