@@ -26,6 +26,7 @@ uncheck "Start the task only if the computer is on AC power"
 # Run the Schedualer 
 <img width="689" height="52" alt="image" src="https://github.com/user-attachments/assets/e7cba776-8935-4264-a895-b8439405b3ad" />
 
-# Confirm if you get a message on discord 
-As we can see here, The task scheduler run the script successfully and I was able to view the message in discord!
+# Confirm Discord Alert
+As we can see here, the Task Scheduler ran the script successfully and I was able to view the message in Discord!
+
 <img width="410" height="197" alt="image" src="https://github.com/user-attachments/assets/676577ec-dabd-4ae2-a38b-999d8ac39924" />
